@@ -6,7 +6,6 @@ namespace LR4
 		/// Designer variable used to keep track of non-visual components.
 		/// </summary>
 		private System.ComponentModel.IContainer components = null;
-		private System.Windows.Forms.Timer timer1;
 		private System.Windows.Forms.TextBox textBox1;
 		private System.Windows.Forms.Button StartScanFile;
 		private System.Windows.Forms.Label label1;
@@ -20,7 +19,6 @@ namespace LR4
 		private System.Windows.Forms.Button TakePathToFile;
 		private System.Windows.Forms.Label label4;
 		private System.Windows.Forms.TextBox textTimer2;
-		private System.Windows.Forms.Timer timer2;
 		private System.Windows.Forms.ListBox listBox1;
 		private System.Windows.Forms.CheckBox checkBoxMulti;
 		
@@ -45,8 +43,6 @@ namespace LR4
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.components = new System.ComponentModel.Container();
-			this.timer1 = new System.Windows.Forms.Timer(this.components);
 			this.textBox1 = new System.Windows.Forms.TextBox();
 			this.StartScanFile = new System.Windows.Forms.Button();
 			this.label1 = new System.Windows.Forms.Label();
@@ -60,15 +56,9 @@ namespace LR4
 			this.TakePathToFile = new System.Windows.Forms.Button();
 			this.label4 = new System.Windows.Forms.Label();
 			this.textTimer2 = new System.Windows.Forms.TextBox();
-			this.timer2 = new System.Windows.Forms.Timer(this.components);
 			this.listBox1 = new System.Windows.Forms.ListBox();
 			this.checkBoxMulti = new System.Windows.Forms.CheckBox();
 			this.SuspendLayout();
-			// 
-			// timer1
-			// 
-			this.timer1.Interval = 100000;
-			this.timer1.Tick += new System.EventHandler(this.Timer1Tick);
 			// 
 			// textBox1
 			// 
@@ -128,11 +118,11 @@ namespace LR4
 			// 
 			// checkBox1
 			// 
-			this.checkBox1.Location = new System.Drawing.Point(127, 86);
+			this.checkBox1.Location = new System.Drawing.Point(234, 57);
 			this.checkBox1.Name = "checkBox1";
-			this.checkBox1.Size = new System.Drawing.Size(147, 24);
+			this.checkBox1.Size = new System.Drawing.Size(151, 24);
 			this.checkBox1.TabIndex = 8;
-			this.checkBox1.Text = "Show found uniqe words ";
+			this.checkBox1.Text = "Show found unique words ";
 			this.checkBox1.UseVisualStyleBackColor = true;
 			this.checkBox1.CheckedChanged += new System.EventHandler(this.CheckBox1CheckedChanged);
 			// 
@@ -179,11 +169,6 @@ namespace LR4
 			this.textTimer2.Size = new System.Drawing.Size(100, 20);
 			this.textTimer2.TabIndex = 12;
 			// 
-			// timer2
-			// 
-			this.timer2.Interval = 100000;
-			this.timer2.Tick += new System.EventHandler(this.Timer2Tick);
-			// 
 			// listBox1
 			// 
 			this.listBox1.FormattingEnabled = true;
@@ -199,7 +184,7 @@ namespace LR4
 			this.checkBoxMulti.Name = "checkBoxMulti";
 			this.checkBoxMulti.Size = new System.Drawing.Size(153, 24);
 			this.checkBoxMulti.TabIndex = 15;
-			this.checkBoxMulti.Text = "take list from multiple files";
+			this.checkBoxMulti.Text = "Take list from multiple files";
 			this.checkBoxMulti.UseVisualStyleBackColor = true;
 			this.checkBoxMulti.CheckedChanged += new System.EventHandler(this.CheckBoxMultiCheckedChanged);
 			// 
