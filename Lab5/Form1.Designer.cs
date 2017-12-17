@@ -1,11 +1,3 @@
-﻿/*
- * Created by SharpDevelop.
- * User: Павел
- * Date: 15.12.2017
- * Time: 11:13
- * 
- * To change this template use Tools | Options | Coding | Edit Standard Headers.
- */
 namespace LR4
 {
 	partial class Form1
